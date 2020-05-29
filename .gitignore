@@ -1,0 +1,23 @@
+# Maven ignores
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Exclude maven wrapper
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Exclude Intellij files
+.idea
+*.iws
+*.iml
+*.ipr
+
+# Exclude files ( ex: Database )
+files/db/*.db
+files/config/user.txt

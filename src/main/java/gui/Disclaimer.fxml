@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="disclaimerPane" prefHeight="400" prefWidth="600" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.DisclaimerController">
+    <children>
+        <ImageView fitHeight="450.0" fitWidth="700.0" layoutX="-1.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../../files/gui/background.jpg" />
+            </image>
+        </ImageView>
+      <Label layoutX="236.0" layoutY="62.0" text="Disclaimer" textFill="#20b2aa">
+         <font>
+            <Font name="Baskerville" size="34.0" />
+         </font>
+      </Label>
+      <Line endX="100.0" layoutX="309.0" layoutY="103.0" startX="-100.0" stroke="WHITE" />
+      <Label layoutX="124.0" layoutY="164.0" text="All data provided  for the tracking of the Carbon Dioxide by :" textFill="GREY" />
+      <Label layoutX="238.0" layoutY="208.0" text="You Sustain : " textFill="WHITE">
+         <font>
+            <Font name="Avenir Next Medium Italic" size="22.0" />
+         </font>
+      </Label>
+      <Hyperlink layoutX="221.0" layoutY="253.0" onAction="#goWebsite" text="http://www.yousustain.com" textFill="#e5ff00" />
+      <Button fx:id="backToTrackPage" stylesheets="@style.css" layoutX="238.0" layoutY="310.0" mnemonicParsing="false" onAction="#returnToTrackC02" text="Return to Track C02" />
+
+    </children>
+</AnchorPane>

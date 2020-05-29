@@ -1,0 +1,7 @@
+Vegetarian meal:12
+Vegan meal:20
+Local produce:15
+Bike:10
+Public transport:33
+Temperature:6
+Solar panel:60
