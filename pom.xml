@@ -24,7 +24,7 @@
 
         <jdbc.version>3.27.2</jdbc.version>
 
-        <json.version>20180813</json.version>
+        <json.version>20230227</json.version>
 
         <javafx.version>13-ea+2</javafx.version>
 
